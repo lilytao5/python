@@ -22,7 +22,7 @@ msg.attach(body)
 # reportpath = "D:\\Python\\README.txt"
 # mail_body = open(reportpath).read()
 # att = MIMEText(mail_body,'base64','utf-8')
-att = MIMEText(open('d:\\python\\README.txt').read(),'base64','utf-8') #上面三句是抽成参数化写的
+att = MIMEText(open('F:\\python\\lily\\att\\test.txt').read(),'base64','utf-8') #上面三句是抽成参数化写的
 att["Content-Type"] = "application/octet-stream"
 att["Content-Disposition"] = 'attachment; filename="report.txt"'
 msg.attach(att)
