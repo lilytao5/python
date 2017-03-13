@@ -8,7 +8,8 @@ import time
 class Login(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        # self.driver = webdriver.Firefox()
+        self.driver = webdriver.PhantomJS()
 
     def tearDown(self):
         self.driver.quit()

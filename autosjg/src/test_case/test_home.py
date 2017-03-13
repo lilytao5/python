@@ -2,7 +2,7 @@
 # 从login模块导入Login类
 import time
 
-from lily.src.login import Login
+from autosjg.src.login import Login
 
 
 # 这里用例直接继承了前面的类，继承过来后直接写case,也可以调用公共方法
