@@ -1,9 +1,10 @@
 # coding:utf-8
 # 从login模块导入Login类
 import time
-
 from autosjg.src.login import Login
 
+# 这里用例直接继承了login.py中的类，继承过来后直接写case,也可以调用公共方法
+class Testlogin(Login):
 
 # 这里用例直接继承了前面的类，继承过来后直接写case,也可以调用公共方法
 class Test_home(Login):
