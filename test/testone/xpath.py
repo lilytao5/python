@@ -10,4 +10,4 @@ time.sleep(3)
 # d_keys("aaa")
 
 dr.find_element_by_xpath(".//a[contains(text(),'搜索设置')]").click()
-dr.findc
+dr.

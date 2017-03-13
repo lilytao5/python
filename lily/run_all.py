@@ -1,11 +1,13 @@
 # coding=utf-8
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-import time
 import os
+import smtplib
+import time
 import unittest
-import HTMLTestRunner
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+import lily.src.HTMLTestRunner
+
 
 # 定义发送邮件
 def send_mail(report_file):
@@ -55,7 +57,7 @@ def send_report():
 def creatsuite():
     testunit = unittest.TestSuite()
     #定义文件查找目录
-    test_dir = "F:\\python\\lily\\test_case"
+    test_dir = "F:\\python\\lily\\src\\test_case"
     #定义discover方法的参数
     discover = unittest.defaultTestLoader.discover(test_dir,
                                                    pattern="test*.py",
@@ -71,9 +73,9 @@ if __name__== "__main__":
     now = time.strftime("%Y-%m-%d %H_%M_%S")
     filename = "F:\\python\\lily\\report\\"+now+"result.html"
     fp = open(filename,"wb")
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,
-                                           title=u'自动化测试报告',
-                                           description=u'用例执行情况')
+    runner = lily.src.HTMLTestRunner.HTMLTestRunner(stream=fp,
+                                                    title=u'自动化测试报告',
+                                                    description=u'用例执行情况')
     runner.run(creatsuite())
     fp.close()
     send_report()

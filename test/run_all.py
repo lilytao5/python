@@ -1,11 +1,14 @@
 #coding=utf-8
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-import time
 import os
+import smtplib
+import time
 import unittest
-import lily.HTMLTestRunner
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+import lily.src.HTMLTestRunner
+
+
 ###--------定义发送邮件函数-----------##
 def send_mail(report_file):
     #发送邮箱
@@ -78,9 +81,9 @@ if __name__ == "__main__":
     now = time.strftime("%Y-%m-%d-%H_%M_%S")
     filename = "F:\\python\\lily\\report\\"+now+"resut.html"
     fp = open(filename, "wb")
-    runner = lily.HTMLTestRunner.HTMLTestRunner(stream=fp,
-                                                title=u'自动化测试报告',
-                                                description=u'用例执行情况：')
+    runner = lily.src.HTMLTestRunner.HTMLTestRunner(stream=fp,
+                                                    title=u'自动化测试报告',
+                                                    description=u'用例执行情况：')
     runner.run(creatsuite())
     fp.close()
     send_report()
