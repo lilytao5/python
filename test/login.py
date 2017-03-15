@@ -1,9 +1,9 @@
 # coding:utf-8
 from selenium import webdriver
-import unittest
+import test01
 import time
 
-class Bolg(unittest.TestCase):
+class Bolg(test01.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Firefox()
@@ -41,7 +41,7 @@ class Bolg(unittest.TestCase):
         self.assertEqual(text, u"上海-悠悠")
 
 if __name__ == "__main__":
-    unittest.main()
+    test01.main()
 
 
 

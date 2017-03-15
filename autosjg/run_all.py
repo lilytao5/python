@@ -2,7 +2,7 @@
 import os
 import smtplib
 import time
-import unittest
+import test01
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
@@ -55,13 +55,13 @@ def send_report():
 
 #将用例添加到套件
 def creatsuite():
-    testunit = unittest.TestSuite()
+    testunit = test01.TestSuite()
     #定义文件查找目录
     test_dir = "F:\\python\\lily\\src\\test_case"
     #定义discover方法的参数
-    discover = unittest.defaultTestLoader.discover(test_dir,
-                                                   pattern="test*.py",
-                                                   top_level_dir=None)
+    discover = test01.defaultTestLoader.discover(test_dir,
+                                                 pattern="test*.py",
+                                                 top_level_dir=None)
     #discover方法筛选出来的用例，循环添加到测试套件中
     for test_suite in discover:
         for test_case in test_suite:

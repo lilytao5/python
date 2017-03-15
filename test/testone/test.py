@@ -7,10 +7,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
-import unittest, time, re
+import test01, time, re
 
 
-class Find_object(unittest.TestCase):
+class Find_object(test01.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
 #        self.driver = webdriver.Chrome()
@@ -38,4 +38,4 @@ class Find_object(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
+    test01.main()

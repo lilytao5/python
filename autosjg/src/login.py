@@ -1,11 +1,11 @@
 # coding:utf-8
 from selenium import webdriver
-import unittest
+import test01
 import time
 
 
 # 这里写了一个登录的公共方法
-class Login(unittest.TestCase):
+class Login(test01.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Firefox()
@@ -33,4 +33,4 @@ class Login(unittest.TestCase):
         time.sleep(3)
 
 if __name__ == "__main__":
-    unittest.main()
+    test01.main()

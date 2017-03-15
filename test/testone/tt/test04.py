@@ -1,7 +1,7 @@
 # coding:utf-8
-import unittest
+import test01
 
-class Test(unittest.TestCase):
+class Test(test01.TestCase):
     def setUp(self):
         print "0000"
 
