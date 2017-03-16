@@ -2,12 +2,10 @@
 import os
 import smtplib
 import time
-import test01
+import unittest
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
-import lily.src.HTMLTestRunner
-
+import HTMLTestRunner
 
 # 定义发送邮件
 def send_mail(report_file):
@@ -43,7 +41,7 @@ def send_mail(report_file):
 
 #发送最新测试报告
 def send_report():
-    result_dir = "F:\\python\\lily\\report"
+    result_dir = "F:\\python\\autosjg\\report"
     lists = os.listdir(result_dir)
     lists.sort(key=lambda fn:os.path.getmtime(result_dir+"\\"+fn))
     print (u'最新测试生成的报告:'+lists[-1])
@@ -55,27 +53,25 @@ def send_report():
 
 #将用例添加到套件
 def creatsuite():
-    testunit = test01.TestSuite()
+    testunit = unittest.TestSuite()
     #定义文件查找目录
-    test_dir = "F:\\python\\lily\\src\\test_case"
+    test_dir = "F:\\python\\autosjg\\src\\test_case"
     #定义discover方法的参数
-    discover = test01.defaultTestLoader.discover(test_dir,
+    discover = unittest.defaultTestLoader.discover(test_dir,
                                                  pattern="test*.py",
                                                  top_level_dir=None)
     #discover方法筛选出来的用例，循环添加到测试套件中
     for test_suite in discover:
         for test_case in test_suite:
             testunit.addTests(test_case)
-            print testunit
+            # print testunit
     return testunit
 
 if __name__== "__main__":
     now = time.strftime("%Y-%m-%d %H_%M_%S")
-    filename = "F:\\python\\lily\\report\\"+now+"result.html"
+    filename = "F:\\python\\autosjg\\report\\"+now+"result.html"
     fp = open(filename,"wb")
-    runner = lily.src.HTMLTestRunner.HTMLTestRunner(stream=fp,
-                                                    title=u'自动化测试报告',
-                                                    description=u'用例执行情况')
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u'数据观自动化测试报告',description=u'用例执行情况')
     runner.run(creatsuite())
     fp.close()
     send_report()

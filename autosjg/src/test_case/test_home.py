@@ -14,6 +14,12 @@ class Testlogin(Login):
         self.assertEqual(text, u"使用引导")
         print "登录成功"
 
-    # def test_02(self):
-    #     # 登录之后的case
-    #     # 后面的case自由发挥吧
+    def test_02(self):
+        # 登录之后的case,还没想好
+        pass
+
+class Testcreatechart(Login):
+    def test_01(self):
+        pass
+    def test_02(self):
+        pass
