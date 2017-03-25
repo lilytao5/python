@@ -17,10 +17,7 @@ class Login(unittest.TestCase):
         path = "f:\\python\\autosjg\\config.conf"
         conf.read(path)
 
-        # self.driver = webdriver.Firefox()
-        self.driver = webdriver.Chrome()
-        # self.driver = webdriver.PhantomJS()
-
+        self.Browser("chrome") #ie/firefox/chrome/phantom
         self.base_url = conf.get("test","base_url")
         username = conf.get("test","username")
         password = conf.get("test","password")
@@ -33,11 +30,11 @@ class Login(unittest.TestCase):
         self.driver.quit()
         self.assertEqual([], self.verificationErrors) #?
 
-    # def test_01(self):
-    #     title = self.driver.title
-    #     print title
-    #     self.assertEqual(title, u"数据观 - 所有人都能使用的数据分析工具")
-    #     print "登录成功"
+    def test_01(self):
+        title = self.driver.title
+        print title
+        self.assertEqual(title, u"数据观 - 所有人都能使用的数据分析工具")
+        print "登录成功"
 
     def login(self, base_url, username, password):
         # 这里写了一个登录的函数,url,账号和密码参数化
@@ -52,6 +49,18 @@ class Login(unittest.TestCase):
         self.driver.find_element_by_id("password").send_keys(password)
         self.driver.find_element_by_class_name("btn-submit").click()
         time.sleep(10)
+
+    def Browser(self, br):
+        if br == "ie":
+            self.driver = webdriver.Ie()
+        elif br == "firefox":
+            self.driver = webdriver.Firefox()
+        elif br == "chrome":
+            self.driver = webdriver.Chrome()
+        elif br == "phantom":
+            self.driver = webdriver.PhantomJS()
+        else:
+            self.driver = webdriver.Chrome()
 
 if __name__ == "__main__":
     unittest.main()

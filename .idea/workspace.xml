@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f558c64f-a1e1-4e35-9776-9c77ec71ad15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autosjg/HTMLTestRunner.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 15_36_32result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 15_39_32result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 15_48_58result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 15_50_17result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 15_54_34result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 15_55_02result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 15_57_56result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 16_04_50result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 16_06_58result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 16_10_07result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 16_15_31result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-16 16_38_10result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-23 22_49_01result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-25 11_15_50result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-25 11_17_27result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-25 11_18_06result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-25 11_37_29result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-25 12_23_16result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-25 12_32_47result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-25 12_34_18result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-25 12_50_02result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-25 13_01_43result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/report/2017-03-25 13_12_02result.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/index.py" afterPath="$PROJECT_DIR$/autosjg/index.py" />
     </list>
     <ignored path="pyhon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +73,7 @@
     <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_01__5_.coverage" NAME="Unittest Testlogin.test_01 (5) Coverage Results" MODIFIED="1489823321895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src/test_case" />
     <SUITE FILE_PATH="coverage/pyhon$mail.coverage" NAME="mail Coverage Results" MODIFIED="1489209564467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_Login__1_.coverage" NAME="Unittests in Login (1) Coverage Results" MODIFIED="1489807348916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
-    <SUITE FILE_PATH="coverage/python$Unittests_in_index.coverage" NAME="Unittests in index Coverage Results" MODIFIED="1490413871653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_index.coverage" NAME="Unittests in index Coverage Results" MODIFIED="1490422370905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/python$Unittest_Login_test_02.coverage" NAME="Unittest Login.test_02 Coverage Results" MODIFIED="1489815839040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_Login.coverage" NAME="Unittests in Login Coverage Results" MODIFIED="1489822212847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
     <SUITE FILE_PATH="coverage/pyhon$run.coverage" NAME="run Coverage Results" MODIFIED="1489216065247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lily" />
@@ -73,14 +96,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/autosjg/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.91810346">
+              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
               <folding>
                 <element signature="e#15#45#0" expanded="true" />
+                <element signature="e#776#851#0" expanded="false" />
+                <element signature="e#1068#1586#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autosjg/config.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autosjg/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7007874">
+            <state vertical-scroll-proportion="0.0">
               <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
@@ -293,79 +328,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="autosjg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autosjg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,7 +382,7 @@
       <recent name="F:\python\autosjg" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_all">
+  <component name="RunManager" selected="Python tests.Unittests in index">
     <configuration default="false" name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -727,11 +690,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.run_all" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Testlogin" />
-        <item index="2" class="java.lang.String" itemvalue="Python.chrome" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Testcreatechart.test_02" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in index" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in index" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run_all" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Testlogin" />
+        <item index="3" class="java.lang.String" itemvalue="Python.chrome" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Testcreatechart.test_02" />
       </list>
     </recent_temporary>
   </component>
@@ -756,34 +719,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Testcreatechart_test_02 - 2017.03.25 at 12h 05m 41s.xml">
-      <configuration name="Unittest Testcreatechart.test_02" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Testlogin - 2017.03.25 at 11h 44m 12s.xml">
-      <configuration name="Unittests in Testlogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Testlogin - 2017.03.25 at 12h 19m 16s.xml">
-      <configuration name="Unittests in Testlogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Testlogin - 2017.03.25 at 12h 20m 55s.xml">
-      <configuration name="Unittests in Testlogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Testlogin - 2017.03.25 at 12h 22m 53s.xml">
-      <configuration name="Unittests in Testlogin" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 11h 41m 12s.xml">
+    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 04m 01s.xml">
       <configuration name="Unittests in index" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 11h 44m 35s.xml">
+    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 05m 41s.xml">
       <configuration name="Unittests in index" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 11h 49m 17s.xml">
+    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 06m 16s.xml">
       <configuration name="Unittests in index" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 11h 49m 50s.xml">
+    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 06m 29s.xml">
       <configuration name="Unittests in index" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 11h 51m 11s.xml">
+    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 10m 48s.xml">
+      <configuration name="Unittests in index" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 11m 06s.xml">
+      <configuration name="Unittests in index" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 11m 40s.xml">
+      <configuration name="Unittests in index" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 12m 01s.xml">
+      <configuration name="Unittests in index" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 12m 11s.xml">
+      <configuration name="Unittests in index" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 13m 17s.xml">
       <configuration name="Unittests in index" configurationId="tests" />
     </history-entry>
   </component>
@@ -796,7 +759,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57157785" sideWeight="0.50238097" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57157785" sideWeight="0.49761903" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49761903" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18095239" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -840,6 +803,8 @@
           <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
           <folding>
             <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#776#851#0" expanded="false" />
+            <element signature="e#1068#1586#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -860,6 +825,8 @@
           <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
           <folding>
             <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#776#851#0" expanded="false" />
+            <element signature="e#1068#1586#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -880,6 +847,8 @@
           <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
           <folding>
             <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#776#851#0" expanded="false" />
+            <element signature="e#1068#1586#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -907,6 +876,8 @@
           <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
           <folding>
             <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#776#851#0" expanded="false" />
+            <element signature="e#1068#1586#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -924,6 +895,8 @@
           <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
           <folding>
             <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#776#851#0" expanded="false" />
+            <element signature="e#1068#1586#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1089,13 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/config.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34961438">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autosjg/test_case/test_chart.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1191,22 +1157,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/index.py">
+    <entry file="file://$PROJECT_DIR$/autosjg/run_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="22" />
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
           <folding>
-            <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#15#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/run_all.py">
+    <entry file="file://$PROJECT_DIR$/autosjg/config.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7007874">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosjg/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91810346">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
           <folding>
-            <element signature="e#15#24#0" expanded="true" />
+            <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#776#851#0" expanded="false" />
+            <element signature="e#1068#1586#0" expanded="false" />
           </folding>
         </state>
       </provider>
