@@ -6,6 +6,9 @@ import unittest
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import HTMLTestRunner
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 # 定义发送邮件
 def send_mail(report_file):
@@ -55,7 +58,7 @@ def send_report():
 def creatsuite():
     testunit = unittest.TestSuite()
     #定义文件查找目录
-    test_dir = "F:\\python\\autosjg\\src\\test_case"
+    test_dir = "F:\\python\\autosjg\\test_case"
     #定义discover方法的参数
     discover = unittest.defaultTestLoader.discover(test_dir,
                                                  pattern="test*.py",

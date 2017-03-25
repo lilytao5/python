@@ -3,6 +3,7 @@ from selenium import webdriver
 import unittest
 import time
 import ConfigParser
+import os
 
 # 这里写了一个登录的公共方法
 class Login(unittest.TestCase):
