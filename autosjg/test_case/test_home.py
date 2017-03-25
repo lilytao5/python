@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding:utf-8
 # 从login模块导入Login类
 from autosjg.index import Login

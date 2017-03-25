@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding:utf-8
 from selenium import webdriver
 import unittest
@@ -17,11 +18,12 @@ class Login(unittest.TestCase):
         path = "f:\\python\\autosjg\\config.conf"
         conf.read(path)
 
-        self.Browser("chrome") #ie/firefox/chrome/phantom
+        self.Browser("chrome") #ie/firefox/chrome/phantom/htmlunit是纯java写的，python不能直接启动它。
         self.base_url = conf.get("test","base_url")
         username = conf.get("test","username")
         password = conf.get("test","password")
 
+        self.driver.implicitly_wait(30)
         self.login(self.base_url,username, password)
         self.verificationErrors = [] #?
         self.accept_next_alert = True #?
@@ -30,19 +32,18 @@ class Login(unittest.TestCase):
         self.driver.quit()
         self.assertEqual([], self.verificationErrors) #?
 
-    def test_01(self):
-        title = self.driver.title
-        print title
-        self.assertEqual(title, u"数据观 - 所有人都能使用的数据分析工具")
-        print "登录成功"
+    # def test_01(self):
+    #     title = self.driver.title
+    #     print title
+    #     self.assertEqual(title, u"数据观 - 所有人都能使用的数据分析工具")
+    #     print "登录成功"
 
     def login(self, base_url, username, password):
         # 这里写了一个登录的函数,url,账号和密码参数化
-        self.driver.get(self.base_url)
+        self.driver.get(self.base_url + "/")
         time.sleep(3)
         self.driver.maximize_window()
 
-        self.driver.implicitly_wait(30)
         self.driver.find_element_by_id("username").clear()
         self.driver.find_element_by_id("username").send_keys(username)
         self.driver.find_element_by_id("password").clear()
