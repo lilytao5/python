@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f558c64f-a1e1-4e35-9776-9c77ec71ad15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/screenshot/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/screenshot/test_screenshot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autosjg/test_case/actions/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autosjg/test_case/category/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autosjg/test_case/category/chart/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autosjg/test_case/category/dashboard/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autosjg/test_case/com/switch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autosjg/test_case/data/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autosjg/test_case/data/test_upload.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autosjg/test_case/home/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_case/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_case/data/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/test_data/0员工管理.xls" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/config.conf" afterPath="$PROJECT_DIR$/autosjg/config.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/index.py" afterPath="$PROJECT_DIR$/autosjg/index.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/run_all.py" afterPath="$PROJECT_DIR$/autosjg/run_all.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/test_case/test_chart.py" afterPath="$PROJECT_DIR$/autosjg/test_case/test_chart.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/test_case/test_home.py" afterPath="$PROJECT_DIR$/autosjg/test_case/test_home.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/test_case/__init__.py" afterPath="$PROJECT_DIR$/autosjg/test_case/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/autosjg/test_case/test_chart.py" afterPath="$PROJECT_DIR$/autosjg/test_case/com/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/autosjg/test_case/test_home.py" afterPath="$PROJECT_DIR$/autosjg/test_case/home/test_home.py" />
     </list>
     <ignored path="pyhon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,55 +33,74 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python$Unittest_Login_test_01__3_.coverage" NAME="Unittest Login.test_01 (3) Coverage Results" MODIFIED="1490932398833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/pyhon$mailnormal.coverage" NAME="mailnormal Coverage Results" MODIFIED="1489209614374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lily" />
     <SUITE FILE_PATH="coverage/python$run_all__1_.coverage" NAME="run_all (1) Coverage Results" MODIFIED="1489650120859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/python$test_screenshot.coverage" NAME="test_screenshot Coverage Results" MODIFIED="1490430590035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/screenshot" />
     <SUITE FILE_PATH="coverage/python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1489473703038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_01__1_.coverage" NAME="Unittest Testlogin.test_01 (1) Coverage Results" MODIFIED="1489823370775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src/test_case" />
+    <SUITE FILE_PATH="coverage/python$mystuff.coverage" NAME="mystuff Coverage Results" MODIFIED="1490925329212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/mo" />
     <SUITE FILE_PATH="coverage/python$Unittest_Testsjg_test_01login.coverage" NAME="Unittest Testsjg.test_01login Coverage Results" MODIFIED="1489821824587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/python$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1490424165146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
+    <SUITE FILE_PATH="coverage/python$song.coverage" NAME="song Coverage Results" MODIFIED="1490926996452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/mo" />
+    <SUITE FILE_PATH="coverage/python$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1490935386500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_01__4_.coverage" NAME="Unittest Testlogin.test_01 (4) Coverage Results" MODIFIED="1489822975553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src/test_case" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_02.coverage" NAME="Unittest Testlogin.test_02 Coverage Results" MODIFIED="1490869078767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/home" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_lianxi.coverage" NAME="Unittests in lianxi Coverage Results" MODIFIED="1489473163614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Testupload_test_02file.coverage" NAME="Unittest Testupload.test_02file Coverage Results" MODIFIED="1490935299432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/data" />
     <SUITE FILE_PATH="coverage/python$Unittest_Lx_test_1.coverage" NAME="Unittest Lx.test_1 Coverage Results" MODIFIED="1489472985841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/python$unittest.coverage" NAME="unittest Coverage Results" MODIFIED="1489472702088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Testupload_test_02file__2_.coverage" NAME="Unittest Testupload.test_02file (2) Coverage Results" MODIFIED="1490932904603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/data" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_Testlogin.coverage" NAME="Unittests in Testlogin Coverage Results" MODIFIED="1490415721308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case" />
+    <SUITE FILE_PATH="coverage/python$test_home.coverage" NAME="test_home Coverage Results" MODIFIED="1490931347804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/home" />
     <SUITE FILE_PATH="coverage/pyhon$mail.coverage" NAME="mail Coverage Results" MODIFIED="1489209564467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_Login__1_.coverage" NAME="Unittests in Login (1) Coverage Results" MODIFIED="1489807348916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
     <SUITE FILE_PATH="coverage/python$Unittest_Baidu_test_baidu_search__1_.coverage" NAME="Unittest Baidu.test_baidu_search (1) Coverage Results" MODIFIED="1490430400452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/screenshot" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_index.coverage" NAME="Unittests in index Coverage Results" MODIFIED="1490428425198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/python$Unittest_Baidu_test_baidu_search.coverage" NAME="Unittest Baidu.test_baidu_search Coverage Results" MODIFIED="1490430463481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/screenshot" />
     <SUITE FILE_PATH="coverage/python$Unittest_Login_test_02.coverage" NAME="Unittest Login.test_02 Coverage Results" MODIFIED="1489815839040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
-    <SUITE FILE_PATH="coverage/python$Unittests_in_Login.coverage" NAME="Unittests in Login Coverage Results" MODIFIED="1489822212847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
     <SUITE FILE_PATH="coverage/pyhon$run.coverage" NAME="run Coverage Results" MODIFIED="1489216065247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lily" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_Login.coverage" NAME="Unittests in Login Coverage Results" MODIFIED="1490761513983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/pyhon$test.coverage" NAME="test Coverage Results" MODIFIED="1489207502007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsjg/test" />
     <SUITE FILE_PATH="coverage/pyhon$mailatt.coverage" NAME="mailatt Coverage Results" MODIFIED="1489214974489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lily" />
     <SUITE FILE_PATH="coverage/python$report__1_.coverage" NAME="report (1) Coverage Results" MODIFIED="1489561045007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_p/case" />
     <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_01__3_.coverage" NAME="Unittest Testlogin.test_01 (3) Coverage Results" MODIFIED="1489822852795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src/test_case" />
     <SUITE FILE_PATH="coverage/python$Unittest_Lx_test_2__1_.coverage" NAME="Unittest Lx.test_2 (1) Coverage Results" MODIFIED="1489472990818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_Testupload.coverage" NAME="Unittests in Testupload Coverage Results" MODIFIED="1490869145373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/data" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Testupload_test_02file__1_.coverage" NAME="Unittest Testupload.test_02file (1) Coverage Results" MODIFIED="1490932812670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/data" />
+    <SUITE FILE_PATH="coverage/python$index.coverage" NAME="index Coverage Results" MODIFIED="1490935003500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/python$report.coverage" NAME="report Coverage Results" MODIFIED="1489480147478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python/test_p/case" />
+    <SUITE FILE_PATH="coverage/python$classmystuff.coverage" NAME="classmystuff Coverage Results" MODIFIED="1490926234251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/mo" />
+    <SUITE FILE_PATH="coverage/python$switch.coverage" NAME="switch Coverage Results" MODIFIED="1490930426302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/com" />
     <SUITE FILE_PATH="coverage/python$open.coverage" NAME="open Coverage Results" MODIFIED="1489563947884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_p/lx" />
     <SUITE FILE_PATH="coverage/python$zs.coverage" NAME="zs Coverage Results" MODIFIED="1489645482075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/python$Unittest_Baidu_test_02.coverage" NAME="Unittest Baidu.test_02 Coverage Results" MODIFIED="1489472963228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/python$testfor.coverage" NAME="testfor Coverage Results" MODIFIED="1489239121965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lily/test_case" />
     <SUITE FILE_PATH="coverage/python$chrome.coverage" NAME="chrome Coverage Results" MODIFIED="1490415488069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/python$switchpage.coverage" NAME="switchpage Coverage Results" MODIFIED="1490868551348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/com" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Login_test_01__5_.coverage" NAME="Unittest Login.test_01 (5) Coverage Results" MODIFIED="1490932550570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_01__2_.coverage" NAME="Unittest Testlogin.test_01 (2) Coverage Results" MODIFIED="1489822684035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src/test_case" />
     <SUITE FILE_PATH="coverage/python$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1489472803727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/python$ll.coverage" NAME="ll Coverage Results" MODIFIED="1489627434956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_login.coverage" NAME="Unittests in login Coverage Results" MODIFIED="1489737628866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
     <SUITE FILE_PATH="coverage/python$Unittest_Lx_test_2.coverage" NAME="Unittest Lx.test_2 Coverage Results" MODIFIED="1489472976691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/python$Unittest_Login_test_01.coverage" NAME="Unittest Login.test_01 Coverage Results" MODIFIED="1489821917902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Login_test_01__2_.coverage" NAME="Unittest Login.test_01 (2) Coverage Results" MODIFIED="1490932341052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Login_test_01.coverage" NAME="Unittest Login.test_01 Coverage Results" MODIFIED="1490933817458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/python$mailatt.coverage" NAME="mailatt Coverage Results" MODIFIED="1489239029250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lily" />
     <SUITE FILE_PATH="coverage/python$Unittest_Testcreatechart_test_02.coverage" NAME="Unittest Testcreatechart.test_02 Coverage Results" MODIFIED="1490414741140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case" />
     <SUITE FILE_PATH="coverage/python$ConfigParset.coverage" NAME="ConfigParset Coverage Results" MODIFIED="1489655575965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/python$mailnormal.coverage" NAME="mailnormal Coverage Results" MODIFIED="1489239105942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lily" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Login_test_01__4_.coverage" NAME="Unittest Login.test_01 (4) Coverage Results" MODIFIED="1490934545256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_dl.coverage" NAME="Unittests in dl Coverage Results" MODIFIED="1489741267643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
     <SUITE FILE_PATH="coverage/pyhon$mailrun.coverage" NAME="mailrun Coverage Results" MODIFIED="1489215127344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lily" />
     <SUITE FILE_PATH="coverage/python$login.coverage" NAME="login Coverage Results" MODIFIED="1489629307120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
     <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_01__5_.coverage" NAME="Unittest Testlogin.test_01 (5) Coverage Results" MODIFIED="1489823321895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src/test_case" />
+    <SUITE FILE_PATH="coverage/python$one.coverage" NAME="one Coverage Results" MODIFIED="1490929819449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/mo" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_Switch.coverage" NAME="Unittests in Switch Coverage Results" MODIFIED="1490868201379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/com" />
     <SUITE FILE_PATH="coverage/python$testshrout.coverage" NAME="testshrout Coverage Results" MODIFIED="1490428134826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/python$Unittest_Login_test_01__1_.coverage" NAME="Unittest Login.test_01 (1) Coverage Results" MODIFIED="1489822076482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Login_test_01__1_.coverage" NAME="Unittest Login.test_01 (1) Coverage Results" MODIFIED="1490933484694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/python$conf.coverage" NAME="conf Coverage Results" MODIFIED="1489657000167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
-    <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_01.coverage" NAME="Unittest Testlogin.test_01 Coverage Results" MODIFIED="1489822549719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src/test_case" />
+    <SUITE FILE_PATH="coverage/python$one__1_.coverage" NAME="one (1) Coverage Results" MODIFIED="1490930621884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/test_case/data" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_01.coverage" NAME="Unittest Testlogin.test_01 Coverage Results" MODIFIED="1490931362570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/home" />
     <SUITE FILE_PATH="coverage/python$testt.coverage" NAME="testt Coverage Results" MODIFIED="1489820834544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -86,20 +116,19 @@
         <entry file="file://$PROJECT_DIR$/autosjg/index.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="22" />
+              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
               <folding>
                 <element signature="e#37#67#0" expanded="true" />
-                <element signature="e#870#945#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/autosjg/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="75" column="64" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.788122">
+              <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
               <folding>
                 <element signature="e#37#46#0" expanded="true" />
               </folding>
@@ -107,44 +136,86 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_chart.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autosjg/test_case/test_chart.py">
+      <file leaf-file-name="test_upload.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autosjg/test_case/data/test_upload.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autosjg/HTMLTestRunner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="436" column="17" selection-start-line="436" selection-start-column="17" selection-end-line="436" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/python/Lib/unittest/case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="369" column="0" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_screenshot.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/screenshot/test_screenshot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10059172">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
-                <element signature="e#24#54#0" expanded="true" />
+                <element signature="e#37#68#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="switch.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autosjg/test_case/com/switch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#37#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="one.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_case/data/one.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autosjg/test_case/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_case/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_home.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autosjg/test_case/home/test_home.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autosjg/config.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.285714">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mystuff.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/mystuff.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,6 +225,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -165,22 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testsjg/test/mail.py" />
-        <option value="$PROJECT_DIR$/testsjg/test/test.py" />
-        <option value="$PROJECT_DIR$/lily/mailsmple.py" />
-        <option value="$PROJECT_DIR$/lily/mailnormal.py" />
-        <option value="$PROJECT_DIR$/lily/mailrun.py" />
-        <option value="$PROJECT_DIR$/lily/run.py" />
-        <option value="$PROJECT_DIR$/lily/mailatt.py" />
-        <option value="$PROJECT_DIR$/test/unittest.py" />
-        <option value="$PROJECT_DIR$/test/test01.py" />
-        <option value="$PROJECT_DIR$/test/lianxi.py" />
-        <option value="$PROJECT_DIR$/test/test1.py" />
-        <option value="E:/python/test_p/case/test01.py" />
-        <option value="E:/python/test_p/case/test02.py" />
-        <option value="E:/python/test_p/run_all.py" />
-        <option value="E:/python/test_p/case/test/test04.py" />
-        <option value="E:/python/test_p/case/report.py" />
         <option value="$PROJECT_DIR$/test_p/test.txt" />
         <option value="$PROJECT_DIR$/test_p/case/report.py" />
         <option value="$PROJECT_DIR$/test_p/lx/open.py" />
@@ -201,18 +257,37 @@
         <option value="$PROJECT_DIR$/autosjg/src/dl.py" />
         <option value="$PROJECT_DIR$/autosjg/src/test_case/test_home.py" />
         <option value="$PROJECT_DIR$/autosjg/src/ch.py" />
-        <option value="$PROJECT_DIR$/autosjg/config.conf" />
         <option value="$PROJECT_DIR$/autosjg/src/login.py" />
         <option value="$PROJECT_DIR$/autosjg/src/index.py" />
         <option value="$PROJECT_DIR$/test/chrome.py" />
         <option value="$PROJECT_DIR$/autosjg/test_case/test_home.py" />
         <option value="$PROJECT_DIR$/autosjg/test_case/test_chart.py" />
-        <option value="$PROJECT_DIR$/autosjg/run_all.py" />
         <option value="$PROJECT_DIR$/autosjg/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/test/testshrout.py" />
-        <option value="$PROJECT_DIR$/autosjg/index.py" />
         <option value="$PROJECT_DIR$/test/testone/test_screenshot.py" />
         <option value="$PROJECT_DIR$/test/screenshot/test_screenshot.py" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/com/dd.py" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/com/aaa.py" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/com/utest_switchpage.py" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/com/swith.py" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/com/switchpage.py" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/com/__init__.py" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/data/__init__.py" />
+        <option value="$PROJECT_DIR$/test/mo/mystuff.py" />
+        <option value="$PROJECT_DIR$/test/mo/classmystuff.py" />
+        <option value="$PROJECT_DIR$/test/mo/song.py" />
+        <option value="$PROJECT_DIR$/test/mo2/__init__.py" />
+        <option value="$PROJECT_DIR$/test/mo/one.py" />
+        <option value="$PROJECT_DIR$/test/test_case/one.py" />
+        <option value="$PROJECT_DIR$/test/test_case/data/one.py" />
+        <option value="$PROJECT_DIR$/test/test_case/__init__.py" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/__init__.py" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/home/test_home.py" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/data/test_upload.py" />
+        <option value="$PROJECT_DIR$/autosjg/config.conf" />
+        <option value="$PROJECT_DIR$/autosjg/test_case/com/switch.py" />
+        <option value="$PROJECT_DIR$/autosjg/run_all.py" />
+        <option value="$PROJECT_DIR$/autosjg/index.py" />
       </list>
     </option>
   </component>
@@ -252,6 +327,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,7 +374,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testone" />
+              <option name="myItemId" value="test_case" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,7 +392,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="screenshot" />
+              <option name="myItemId" value="test_case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,11 +414,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="screenshot" />
+              <option name="myItemId" value="test_case" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="result" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,9 +436,92 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autosjg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autosjg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autosjg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autosjg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Changed Files">
           <PATH>
@@ -396,18 +559,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\python\test\screenshot" />
-      <recent name="F:\python\test\testone" />
-      <recent name="F:\python\autosjg\test_case" />
-      <recent name="F:\python\autosjg" />
       <recent name="F:\python\test" />
+      <recent name="F:\python\test\test_case\data" />
+      <recent name="F:\python\test\test_case\com" />
+      <recent name="F:\python\test\mo" />
+      <recent name="F:\python\test\mo2\case" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\python\autosjg" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_screenshot">
-    <configuration default="false" name="Unittests in index" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.run_all">
+    <configuration default="false" name="Unittest Login.test_01 (4)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -419,67 +582,8 @@
       <module name="pyhon" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autosjg/index.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testshrout" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyhon" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\python\test\screenshot\test_screenshot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_screenshot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/screenshot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyhon" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/screenshot/test_screenshot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest Baidu.test_baidu_search" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/screenshot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyhon" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/screenshot/test_screenshot.py" />
-      <option name="CLASS_NAME" value="Baidu" />
-      <option name="METHOD_NAME" value="test_baidu_search" />
+      <option name="CLASS_NAME" value="Login" />
+      <option name="METHOD_NAME" value="test_01" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -489,20 +593,20 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest Baidu.test_baidu_search (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest Login.test_01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/screenshot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autosjg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyhon" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/screenshot/test_screenshot.py" />
-      <option name="CLASS_NAME" value="Baidu" />
-      <option name="METHOD_NAME" value="test_baidu_search" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autosjg/index.py" />
+      <option name="CLASS_NAME" value="Login" />
+      <option name="METHOD_NAME" value="test_01" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -510,6 +614,65 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autosjg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyhon" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autosjg/index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Testupload.test_02file" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autosjg/test_case/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyhon" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autosjg/test_case/data/test_upload.py" />
+      <option name="CLASS_NAME" value="Testupload" />
+      <option name="METHOD_NAME" value="test_02file" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autosjg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyhon" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autosjg/run_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -706,19 +869,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in index" />
-      <item index="1" class="java.lang.String" itemvalue="Python.testshrout" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_screenshot" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Baidu.test_baidu_search" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Baidu.test_baidu_search (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Login.test_01 (4)" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Login.test_01" />
+      <item index="2" class="java.lang.String" itemvalue="Python.index" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Testupload.test_02file" />
+      <item index="4" class="java.lang.String" itemvalue="Python.run_all" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test_screenshot" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Baidu.test_baidu_search" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Baidu.test_baidu_search (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in index" />
-        <item index="4" class="java.lang.String" itemvalue="Python.testshrout" />
+        <item index="0" class="java.lang.String" itemvalue="Python.run_all" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Testupload.test_02file" />
+        <item index="2" class="java.lang.String" itemvalue="Python.index" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Login.test_01 (4)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Login.test_01" />
       </list>
     </recent_temporary>
   </component>
@@ -743,55 +906,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Baidu_test_baidu_search - 2017.03.25 at 16h 25m 56s.xml">
-      <configuration name="Unittest Baidu.test_baidu_search" configurationId="tests" />
+    <history-entry file="Unittest_Login_test_01 - 2017.03.31 at 12h 17m 33s.xml">
+      <configuration name="Unittest Login.test_01" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Baidu_test_baidu_search - 2017.03.25 at 16h 28m 07s.xml">
-      <configuration name="Unittest Baidu.test_baidu_search" configurationId="tests" />
+    <history-entry file="Unittest_Login_test_01_(1) - 2017.03.31 at 12h 14m 08s.xml">
+      <configuration name="Unittest Login.test_01 (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Baidu_test_baidu_search_(1) - 2017.03.25 at 16h 27m 03s.xml">
-      <configuration name="Unittest Baidu.test_baidu_search (1)" configurationId="tests" />
+    <history-entry file="Unittest_Login_test_01_(4) - 2017.03.31 at 12h 00m 34s.xml">
+      <configuration name="Unittest Login.test_01 (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 10m 48s.xml">
-      <configuration name="Unittests in index" configurationId="tests" />
+    <history-entry file="Unittest_Login_test_01_(4) - 2017.03.31 at 12h 26m 41s.xml">
+      <configuration name="Unittest Login.test_01 (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 11m 06s.xml">
-      <configuration name="Unittests in index" configurationId="tests" />
+    <history-entry file="Unittest_Login_test_01_(4) - 2017.03.31 at 12h 28m 05s.xml">
+      <configuration name="Unittest Login.test_01 (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 11m 40s.xml">
-      <configuration name="Unittests in index" configurationId="tests" />
+    <history-entry file="Unittest_Login_test_01_(4) - 2017.03.31 at 12h 29m 39s.xml">
+      <configuration name="Unittest Login.test_01 (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 12m 01s.xml">
-      <configuration name="Unittests in index" configurationId="tests" />
+    <history-entry file="Unittest_Testupload_test_02file - 2017.03.31 at 11h 59m 22s.xml">
+      <configuration name="Unittest Testupload.test_02file" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 12m 11s.xml">
-      <configuration name="Unittests in index" configurationId="tests" />
+    <history-entry file="Unittest_Testupload_test_02file - 2017.03.31 at 12h 42m 17s.xml">
+      <configuration name="Unittest Testupload.test_02file" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 14h 13m 17s.xml">
-      <configuration name="Unittests in index" configurationId="tests" />
+    <history-entry file="Unittest_Testupload_test_02file_(1) - 2017.03.31 at 12h 00m 52s.xml">
+      <configuration name="Unittest Testupload.test_02file (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_index - 2017.03.25 at 15h 54m 13s.xml">
-      <configuration name="Unittests in index" configurationId="tests" />
+    <history-entry file="Unittest_Testupload_test_02file_(2) - 2017.03.31 at 12h 02m 25s.xml">
+      <configuration name="Unittest Testupload.test_02file (2)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-182" width="1696" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="1358" y="-182" width="1696" height="1066" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57157785" sideWeight="0.50238097" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2633229" sideWeight="0.49761903" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18095239" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57157785" sideWeight="0.50238097" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810867" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31870428" sideWeight="0.49761903" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -816,103 +979,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autosjg/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="e#37#67#0" expanded="true" />
-            <element signature="e#870#945#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/run_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="e#37#67#0" expanded="true" />
-            <element signature="e#870#945#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/run_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="e#37#67#0" expanded="true" />
-            <element signature="e#870#945#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/test_case/test_chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="e#37#67#0" expanded="true" />
-            <element signature="e#870#945#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/test_case/test_chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/test_case/test_home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.60714287">
@@ -934,28 +1005,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07test_p/case/test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08learn/mail/mailatt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08learn/mail/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08learn/mail/mailnormal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1064,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,15 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,77 +1156,215 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020474138">
+          <caret line="369" column="0" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/screenshot/test_screenshot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94827586">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08learn/mail/mailatt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07test_p/case/test02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08learn/mail/mailnormal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosjg/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.340517">
+          <caret line="436" column="0" selection-start-line="436" selection-start-column="0" selection-end-line="437" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07test_p/case/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosjg/test_case/actions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosjg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosjg/test_case/com/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosjg/test_case/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_case/classmystuff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_case/song.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_case/com/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_case/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_case/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosjg/test_case/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_case/data/one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mystuff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autosjg/config.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        <state vertical-scroll-proportion="-6.285714">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="436" column="17" selection-start-line="436" selection-start-column="17" selection-end-line="436" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/test_case/test_home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="369" column="0" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/test_case/test_chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autosjg/run_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="64" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="64" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autosjg/index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="22" />
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
           <folding>
             <element signature="e#37#67#0" expanded="true" />
-            <element signature="e#870#945#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/screenshot/test_screenshot.py">
+    <entry file="file://$PROJECT_DIR$/autosjg/test_case/com/switch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10059172">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#24#54#0" expanded="true" />
+            <element signature="e#37#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosjg/test_case/home/test_home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosjg/test_case/data/test_upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#37#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosjg/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.788122">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <folding>
+            <element signature="e#37#46#0" expanded="true" />
           </folding>
         </state>
       </provider>

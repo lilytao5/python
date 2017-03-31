@@ -7,9 +7,6 @@ import unittest
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import HTMLTestRunner
-# import sys
-# reload(sys)
-# sys.setdefaultencoding('utf8')
 
 # 定义发送邮件
 def send_mail(report_file):
