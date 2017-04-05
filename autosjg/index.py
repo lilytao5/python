@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding:utf-8
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-import unittest
-import time
+import unittest, time, xlrd
 import ConfigParser
+from autosjg.test_case.com import rwexcel
+from selenium.webdriver.common.by import By
 
 # 这里写了一个登录的公共方法
 class Login(unittest.TestCase):
@@ -36,15 +36,22 @@ class Login(unittest.TestCase):
         self.assertEqual([], self.verificationErrors) #?
 
     #这是一段测试代码，运行时需要注释掉
-    # def test_01(self):
-    #     print "进入测试"
-    #     self.driver.find_element(By.ID,"mydata").click()
-    #     time.sleep(3)
-    #     print "点击数据中心"
-    #     title = self.driver.title
-    #     print title
-    #     self.assertEqual(title, u"数据观 - 所有人都能使用的数据分析工具")
-    #     print "登录成功"
+    def test_01(self):
+        print "进入测试"
+        # self.driver.find_element("id","mydata").click()
+
+        elepath = "F:\\python\\autosjg\\test_data\\element.xls"
+        table = rwexcel.find_ele(elepath, 1)
+        way = table[0]
+        content = table[1]
+        self.driver.find_element(way, content).click()
+
+        time.sleep(3)
+        print "点击数据中心"
+        title = self.driver.title
+        print title
+        self.assertEqual(title, u"数据观 - 所有人都能使用的数据分析工具")
+        print "登录成功"
 
     def browser(self, browser):
         if browser == "ie":
@@ -58,17 +65,16 @@ class Login(unittest.TestCase):
         else:
             self.driver = webdriver.Chrome()
 
-    def login(self, username, password):
-        # 这里写了一个登录的函数,url,账号和密码参数化
+    def login(self, base_url, username, password):
         self.driver.get(self.base_url + "/")
         time.sleep(3)
         self.driver.maximize_window()
 
-        self.driver.find_element(By.ID,"username").clear()
-        self.driver.find_element(By.ID,"username").send_keys(username)
-        self.driver.find_element(By.ID,"password").clear()
-        self.driver.find_element(By.ID,"password").send_keys(password)
-        self.driver.find_element(By.CLASS_NAME,"btn-submit").click()
+        self.driver.find_element("id","username").clear()
+        self.driver.find_element("id","username").send_keys(username)
+        self.driver.find_element("id","password").clear()
+        self.driver.find_element("id","password").send_keys(password)
+        self.driver.find_element("class name","btn-submit").click()
         time.sleep(15)
 
 if __name__ == "__main__":
