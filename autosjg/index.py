@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # coding:utf-8
-from selenium import webdriver
-import unittest, time, xlrd
 import ConfigParser
-from autosjg.test_case.com import rwexcel
-from selenium.webdriver.common.by import By
+import time
+import unittest
+from selenium import webdriver
+from autosjg.test_case.com import excel
+
 
 # 这里写了一个登录的公共方法
 class Login(unittest.TestCase):
@@ -39,12 +40,9 @@ class Login(unittest.TestCase):
     def test_01(self):
         print "进入测试"
         # self.driver.find_element("id","mydata").click()
-
         elepath = "F:\\python\\autosjg\\test_data\\element.xls"
-        table = rwexcel.find_ele(elepath, 1)
-        way = table[0]
-        content = table[1]
-        self.driver.find_element(way, content).click()
+        table = excel.find_ele(elepath, 1)
+        self.driver.find_element(table['EL91001'][1],table['EL91001'][0]).click()
 
         time.sleep(3)
         print "点击数据中心"
