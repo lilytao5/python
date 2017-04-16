@@ -1,7 +1,7 @@
 # coding=utf-8
 import unittest
 import HTMLTestRunner
-test_dir = "f:\\python\\07test_p\\case"
+test_dir = "f:\\python\\07test_p\\0case"
 import time
 c_time = time.strftime("%Y_%m_%d %H_%M_%S")
 # print c_time

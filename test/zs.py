@@ -7,7 +7,7 @@ import time
 
 browser = webdriver.Remote(desired_capabilities=DesiredCapabilities.HTMLUNIT)
 #browser = webdriver.DesiredCapabilities.HTMLUNIT() # Get local session of firefox
-browser.get("http://www.yahoo.com") # Load page
+browser.get("http://www.yahoo.0com") # Load page
 assert "Yahoo" in browser.title
 elem = browser.find_element_by_name("p") # Find the query box
 elem.send_keys("seleniumhq" + Keys.RETURN)

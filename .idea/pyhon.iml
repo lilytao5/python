@@ -5,5 +5,6 @@
     <orderEntry type="jdk" jdkName="Python 2.7.11 (D:\python\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="test_p" />
+    <orderEntry type="module" module-name="Python-Project" />
   </component>
 </module>

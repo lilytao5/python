@@ -12,13 +12,13 @@ import lily.src.HTMLTestRunner
 ###--------定义发送邮件函数-----------##
 def send_mail(report_file):
     #发送邮箱
-    sender = "pgvh@163.com"
+    sender = "pgvh@163.0com"
     #接收邮箱
-    receiver = "23908092@qq.com"
+    receiver = "23908092@qq.0com"
     #发送邮件服务器
-    smtpserver = "smtp.163.com"
+    smtpserver = "smtp.163.0com"
     #发送邮箱账号和密码
-    username = "pgvh@163.com"
+    username = "pgvh@163.0com"
     password = "lilytao520"
     #读取测试报告的内容
     with open(report_file, "rb") as f:

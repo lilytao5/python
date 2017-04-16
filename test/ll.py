@@ -5,7 +5,7 @@ import unittest, time, re
 class serc(unittest.TestCase):
     def setUp(self):
         self.verificationErrors = []
-        self.selenium = selenium("localhost", 4444,"*chrome","http://www.baidu.com/")
+        self.selenium = selenium("localhost", 4444,"*chrome","http://www.baidu.0com/")
         self.selenium.start()
     def test_serc(self):
         sel = self.selenium

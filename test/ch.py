@@ -15,8 +15,8 @@ class Login(unittest.TestCase):
         # username = "liyan@gbase.cn"
         # password = "111111"
 
-        self.base_url = "http://ls.chart2.com/signin"
-        username = "lily@lily.com"
+        self.base_url = "http://ls.chart2.0com/signin"
+        username = "lily@lily.0com"
         password = "111111"
 
         self.login(self.base_url,username, password)

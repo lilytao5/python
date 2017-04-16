@@ -13,7 +13,7 @@ class Bolg(test01.TestCase):
 
     def login(self, username, psw):
         # 这里写了一个登录的函数,账号和密码参数化
-        url = "https://passport.cnblogs.com/user/signin"
+        url = "https://passport.cnblogs.0com/user/signin"
         self.driver.get(url)
         self.driver.implicitly_wait(30)
         self.driver.find_element_by_id("input1").send_keys(username)

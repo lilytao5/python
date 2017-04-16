@@ -2,10 +2,10 @@
 import smtplib
 from email.mime.text import MIMEText
 
-sender = "pgvh@163.com" #发送邮箱账号
-receiver = "23908092@qq.com" #接收邮箱账号
-smtpserver = "smtp.163.com" #发送邮箱服务器
-username = "pgvh@163.com" #邮箱账号
+sender = "pgvh@163.0com" #发送邮箱账号
+receiver = "23908092@qq.0com" #接收邮箱账号
+smtpserver = "smtp.163.0com" #发送邮箱服务器
+username = "pgvh@163.0com" #邮箱账号
 password = "lilytao520" #邮箱密码
 subject = "this is a no att mail" #邮件主题
 

@@ -2,7 +2,7 @@
 # coding=utf-8
 # import sys
 # sys.path.append("..")
-# from test.com.case import mystuff
+# from test.0com.case import mystuff
 from test import mystuff
 
 stuff = {'apple':"i am apples!!"}

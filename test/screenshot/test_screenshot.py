@@ -8,7 +8,7 @@ class Baidu(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(30)
-        self.base_url = "http://www.baidu.com"
+        self.base_url = "http://www.baidu.0com"
     def test_baidu_search(self):
         driver = self.driver
         print u"========【case_0001】 百度搜索============="

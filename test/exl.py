@@ -32,7 +32,7 @@ def Login():
                 assert 0 , u"Excel数据异常"
         for i in range(0 , len(listdata) ):
                 driver = webdriver.Chrome()
-                driver.get("https://workyun.com/")
+                driver.get("https://workyun.0com/")
                 #点击登录按钮
                 driver.find_element_by_xpath("html/body/div[2]/section[1]/div/div[2]/header/nav/div[3]/ul/li[1]/a").click()
                 time.sleep(1)

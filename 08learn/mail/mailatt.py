@@ -3,10 +3,10 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-sender = "pgvh@163.com"
-receiver = "23908092@qq.com"
-smtpserver = "smtp.163.com"
-username = "pgvh@163.com"
+sender = "pgvh@163.0com"
+receiver = "23908092@qq.0com"
+smtpserver = "smtp.163.0com"
+username = "pgvh@163.0com"
 password = "lilytao520"
 subject = "含附件发送邮件"
 
