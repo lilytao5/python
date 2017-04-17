@@ -1,83 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/test/disijie/waittest.py" description="expected = EC.text_to_be_present_in_element(text_l..." line="18" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f558c64f-a1e1-4e35-9776-9c77ec71ad15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_data/element.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_data/测试数据-员工管理.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0case/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0case/comment/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0case/home.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0case/login/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0case/login/test_login.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0com/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0com/lily_selenium.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0com/login_common.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0src/Login.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0src/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0src/category.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0src/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/0src/home.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/HTMLTestRunner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/config.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/index.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/report/2017-03-25 14_40_40result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/report/2017-03-25 14_42_45result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/report/2017-03-29 12_26_10result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/report/2017-03-29 12_27_43result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/report/2017-03-29 12_29_11result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/report/2017-03-30 12_42_36result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/report/2017-03-31 12_43_06result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/report/2017-04-15 15_21_17result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/run_all.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/actions/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/category/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/category/chart/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/category/dashboard/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/com/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/com/excel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/com/switch.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/data/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/data/test_upload.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/home/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newautosjg/test_case/home/test_home.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/csh/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/csh/xl1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/di3jie/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/di3jie/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/di3jie/test2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/di3jie/test3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/error/lx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/error/lx2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/error/lx3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lei/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lei/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lei/test1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/lei/yu.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/autosjg/test_case/com/rwexcel.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/test_data/element.xls" afterPath="$PROJECT_DIR$/autosjg/test_data/element.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pyhon.iml" afterPath="$PROJECT_DIR$/.idea/pyhon.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/disijie/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/disijie/fengzhuang.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/disijie/waittest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07test_p/run_all.py" afterPath="$PROJECT_DIR$/07test_p/run_all.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08learn/mail/mailatt.py" afterPath="$PROJECT_DIR$/08learn/mail/mailatt.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08learn/mail/mailnormal.py" afterPath="$PROJECT_DIR$/08learn/mail/mailnormal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/HTMLTestRunner.py" afterPath="$PROJECT_DIR$/autosjg/HTMLTestRunner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/index.py" afterPath="$PROJECT_DIR$/autosjg/index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autosjg/run_all.py" afterPath="$PROJECT_DIR$/autosjg/run_all.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ch.py" afterPath="$PROJECT_DIR$/test/ch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chrome.py" afterPath="$PROJECT_DIR$/test/chrome.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/error/test.py" afterPath="$PROJECT_DIR$/test/error/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/exl.py" afterPath="$PROJECT_DIR$/test/exl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/exl2.py" afterPath="$PROJECT_DIR$/test/exl2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ll.py" afterPath="$PROJECT_DIR$/test/ll.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/login.py" afterPath="$PROJECT_DIR$/test/login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/run_all.py" afterPath="$PROJECT_DIR$/test/run_all.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/screenshot/test_screenshot.py" afterPath="$PROJECT_DIR$/test/screenshot/test_screenshot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_case/data/one.py" afterPath="$PROJECT_DIR$/test/test_case/data/one.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/testone/xpath.py" afterPath="$PROJECT_DIR$/test/testone/xpath.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/zs.py" afterPath="$PROJECT_DIR$/test/zs.py" />
     </list>
     <ignored path="pyhon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,6 +59,7 @@
     <SUITE FILE_PATH="coverage/python$Unittests_in_Login.coverage" NAME="Unittests in Login Coverage Results" MODIFIED="1490761513983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/pyhon$test.coverage" NAME="test Coverage Results" MODIFIED="1489207502007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsjg/test" />
     <SUITE FILE_PATH="coverage/pyhon$mailatt.coverage" NAME="mailatt Coverage Results" MODIFIED="1489214974489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lily" />
+    <SUITE FILE_PATH="coverage/python$waittest.coverage" NAME="waittest Coverage Results" MODIFIED="1492350802763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/disijie" />
     <SUITE FILE_PATH="coverage/python$yu.coverage" NAME="yu Coverage Results" MODIFIED="1492161196108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/lei" />
     <SUITE FILE_PATH="coverage/python$report__1_.coverage" NAME="report (1) Coverage Results" MODIFIED="1489561045007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_p/case" />
     <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_01__3_.coverage" NAME="Unittest Testlogin.test_01 (3) Coverage Results" MODIFIED="1489822852795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src/test_case" />
@@ -158,6 +90,7 @@
     <SUITE FILE_PATH="coverage/python$Unittests_in_Test.coverage" NAME="Unittests in Test Coverage Results" MODIFIED="1492261983259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/di3jie" />
     <SUITE FILE_PATH="coverage/python$Unittest_Login_test_01__2_.coverage" NAME="Unittest Login.test_01 (2) Coverage Results" MODIFIED="1490932341052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
     <SUITE FILE_PATH="coverage/python$Unittest_Login_test_01.coverage" NAME="Unittest Login.test_01 Coverage Results" MODIFIED="1491811554001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
+    <SUITE FILE_PATH="coverage/python$fengzhuang.coverage" NAME="fengzhuang Coverage Results" MODIFIED="1492349135821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/disijie" />
     <SUITE FILE_PATH="coverage/python$mailatt.coverage" NAME="mailatt Coverage Results" MODIFIED="1489239029250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lily" />
     <SUITE FILE_PATH="coverage/python$Unittest_Testcreatechart_test_02.coverage" NAME="Unittest Testcreatechart.test_02 Coverage Results" MODIFIED="1490414741140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case" />
     <SUITE FILE_PATH="coverage/python$ConfigParset.coverage" NAME="ConfigParset Coverage Results" MODIFIED="1489655575965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg" />
@@ -202,61 +135,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newautosjg/0src/category.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newautosjg/0case/login/test_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_common.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newautosjg/0com/login_common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lily_selenium.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newautosjg/0com/lily_selenium.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xl1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/csh/xl1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/di3jie/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="4" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waittest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/disijie/waittest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.87">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#37#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fengzhuang.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/disijie/fengzhuang.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+              <folding>
+                <element signature="e#37#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wait.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/support/wait.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/disijie/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -282,7 +209,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test3.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="expected_conditions.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/di3jie/test3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -309,9 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/autosjg/test_case/com/switchpage.py" />
-        <option value="$PROJECT_DIR$/autosjg/test_case/com/__init__.py" />
-        <option value="$PROJECT_DIR$/autosjg/test_case/data/__init__.py" />
         <option value="$PROJECT_DIR$/test/mo/mystuff.py" />
         <option value="$PROJECT_DIR$/test/mo/classmystuff.py" />
         <option value="$PROJECT_DIR$/test/mo/song.py" />
@@ -360,6 +294,9 @@
         <option value="$PROJECT_DIR$/test/di3jie/test.py" />
         <option value="$PROJECT_DIR$/test/di3jie/ss.py" />
         <option value="$PROJECT_DIR$/test/di3jie/test3.py" />
+        <option value="$PROJECT_DIR$/test/waittest.py" />
+        <option value="$PROJECT_DIR$/test/disijie/fengzhuang.py" />
+        <option value="$PROJECT_DIR$/test/disijie/waittest.py" />
       </list>
     </option>
   </component>
@@ -446,6 +383,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="testone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disijie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="di3jie" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -488,55 +461,19 @@
     <property name="SearchEverywhereHistoryKey" value="show line&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\python\newautosjg\0src" />
-      <recent name="F:\python\newautosjg\com" />
-      <recent name="F:\python" />
-      <recent name="F:\python\test" />
-      <recent name="F:\python\test\test_case\data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\python" />
       <recent name="F:\python\autosjg" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\python\test\disijie" />
+      <recent name="F:\python\test" />
+      <recent name="F:\python\newautosjg\0src" />
+      <recent name="F:\python\newautosjg\com" />
+      <recent name="F:\python" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.ss">
-    <configuration default="false" name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/lei" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyhon" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/lei/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="yu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/lei" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyhon" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/lei/yu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.waittest">
     <configuration default="false" name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -592,6 +529,42 @@
       <module name="pyhon" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="F:\python\test\di3jie\test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="waittest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/disijie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyhon" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/disijie/waittest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fengzhuang" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/disijie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyhon" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/disijie/fengzhuang.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -790,19 +763,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.yu" />
-      <item index="2" class="java.lang.String" itemvalue="Python.run_all" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ss" />
+      <item index="0" class="java.lang.String" itemvalue="Python.run_all" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ss" />
+      <item index="3" class="java.lang.String" itemvalue="Python.waittest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.fengzhuang" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ss" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.run_all" />
-        <item index="3" class="java.lang.String" itemvalue="Python.yu" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.waittest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fengzhuang" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ss" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.run_all" />
       </list>
     </recent_temporary>
   </component>
@@ -860,7 +833,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1830161" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -868,7 +841,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17480315" sideWeight="0.49761903" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32440946" sideWeight="0.49761903" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -912,41 +885,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autosjg/test_case/data/test_upload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33152175">
-          <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/exl2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/exl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/rwexcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1175,7 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,14 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/di3jie/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newautosjg/0case/home.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1282,6 +1209,58 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/di3jie/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/disijie/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/disijie/fengzhuang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="e#37#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/disijie/waittest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
