@@ -9,6 +9,7 @@ import os, sys, time
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+
 class Help(object):
     """
     基于原生的selenium框架做了二次封装.
@@ -141,7 +142,7 @@ class Help(object):
 
 
 if __name__ == '__main__':
-    driver = Yoyo("ff")  # 调用浏览器，支持 'firefox', 'chrome', 'ie' or 'phantomjs'
+    driver = Help("chrome")  # 调用浏览器，支持 'firefox', 'chrome', 'ie' or 'phantomjs'
     driver.open("http://www.baidu.com", "百度")
     # locator = ("id", "kw")
     # driver.find_element(locator).send_keys("kkk")
