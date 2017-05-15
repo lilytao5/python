@@ -14,9 +14,17 @@ class Testsjg(unittest.TestCase):
 
     def test_01login(self):
         self.driver.find_element_by_name("username").send_keys("liyan@gbase.cn")
+        time.sleep(3)
         self.driver.find_element_by_id("password").send_keys("111111")
+        time.sleep(3)
+
+
+
+
+        
         self.driver.find_element_by_class_name("btn-submit").click()
+        time.sleep(3)
         title = self.driver.title
         print title
-        self.assertEqual(title, u"登录-shujuguan")
+        self.assertEqual(title, u"数据观 - 所有人都能使用的数据分析工具")
         print "登录成功"
