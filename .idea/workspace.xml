@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f558c64f-a1e1-4e35-9776-9c77ec71ad15" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sjg/case/login/test_login.py" afterPath="$PROJECT_DIR$/sjg/case/login/test_login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sjg/common/help.py" afterPath="$PROJECT_DIR$/sjg/common/help.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sjg/blog/__init__.py" afterPath="$PROJECT_DIR$/sjg/page/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sjg/blog/blog_home_page.py" afterPath="$PROJECT_DIR$/sjg/page/home_page.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sjg/blog/blog_login_page.py" afterPath="$PROJECT_DIR$/sjg/page/login_page.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sjg/blog/blog_new_page.py" afterPath="$PROJECT_DIR$/sjg/page/data_page.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sjg/blog/这个模块负责抓取页面元素和操作的方法.txt" afterPath="$PROJECT_DIR$/sjg/page/这个模块负责抓取页面元素和操作的方法.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sjg/case/comment/__init__.py" afterPath="$PROJECT_DIR$/sjg/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/testt.py" afterPath="$PROJECT_DIR$/test/testt.py" />
     </list>
     <ignored path="pyhon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +29,7 @@
     <SUITE FILE_PATH="coverage/python$Unittest_Testlogin_test_01__1_.coverage" NAME="Unittest Testlogin.test_01 (1) Coverage Results" MODIFIED="1489823370775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/src/test_case" />
     <SUITE FILE_PATH="coverage/python$mystuff.coverage" NAME="mystuff Coverage Results" MODIFIED="1490925329212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/mo" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_test_login__1_.coverage" NAME="Unittests in test_login (1) Coverage Results" MODIFIED="1492423021500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yoyo/case/login" />
-    <SUITE FILE_PATH="coverage/python$Unittest_Testsjg_test_01login.coverage" NAME="Unittest Testsjg.test_01login Coverage Results" MODIFIED="1489821824587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/python$Unittest_Testsjg_test_01login.coverage" NAME="Unittest Testsjg.test_01login Coverage Results" MODIFIED="1494832580900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/python$exl.coverage" NAME="exl Coverage Results" MODIFIED="1491470224960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autosjg/test_case/com" />
     <SUITE FILE_PATH="coverage/python$rwexcel.coverage" NAME="rwexcel Coverage Results" MODIFIED="1491470207554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_My.coverage" NAME="Unittests in My Coverage Results" MODIFIED="1491536925344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/error" />
@@ -223,22 +215,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_page.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sjg/page/data_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.052805282">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yoyo_selenium.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yoyo/common/yoyo_selenium.py">
+      <file leaf-file-name="testt.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/testt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="39" />
-              <folding />
+            <state vertical-scroll-proportion="1.6768292">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="e#15#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -260,7 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_case/__init__.py" />
         <option value="$PROJECT_DIR$/autosjg/test_case/__init__.py" />
         <option value="$PROJECT_DIR$/autosjg/test_case/home/test_home.py" />
         <option value="$PROJECT_DIR$/autosjg/test_case/data/test_upload.py" />
@@ -311,6 +304,7 @@
         <option value="$PROJECT_DIR$/sjg/case/login/test_login.py" />
         <option value="$PROJECT_DIR$/sjg/page/login_page.py" />
         <option value="$PROJECT_DIR$/sjg/page/data_page.py" />
+        <option value="$PROJECT_DIR$/test/testt.py" />
       </list>
     </option>
   </component>
@@ -404,6 +398,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="sjg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -470,9 +478,9 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.23091976" />
-    <property name="SearchEverywhereHistoryKey" value="show line&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="show lin&#9;null&#9;null&#10;show line&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -489,25 +497,7 @@
       <recent name="F:\python\autosjg" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest Login_test.test_login_01">
-    <configuration default="false" name="waittest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/disijie" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyhon" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/disijie/waittest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittest Testsjg.test_01login">
     <configuration default="false" name="Unittests in test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -586,6 +576,29 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sjg/case/login/test_login.py" />
       <option name="CLASS_NAME" value="Login_test" />
       <option name="METHOD_NAME" value="test_login_01" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Testsjg.test_01login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testt.py" />
+      <option name="CLASS_NAME" value="Testsjg" />
+      <option name="METHOD_NAME" value="test_01login" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -789,19 +802,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.waittest" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_login" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_login (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.help" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Login_test.test_login_01" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_login" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_login (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.help" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Login_test.test_login_01" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Testsjg.test_01login" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Login_test.test_login_01" />
-        <item index="1" class="java.lang.String" itemvalue="Python.help" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_login (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_login" />
-        <item index="4" class="java.lang.String" itemvalue="Python.waittest" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Testsjg.test_01login" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Login_test.test_login_01" />
+        <item index="2" class="java.lang.String" itemvalue="Python.help" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_login (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_login" />
       </list>
     </recent_temporary>
   </component>
@@ -826,23 +839,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Login_test_test_login_01 - 2017.04.26 at 11h 52m 51s.xml">
-      <configuration name="Unittest Login_test.test_login_01" configurationId="tests" />
+    <history-entry file="Unittest_Testsjg_test_01login - 2017.05.15 at 11h 10m 20s.xml">
+      <configuration name="Unittest Testsjg.test_01login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Login_test_test_login_01 - 2017.04.26 at 12h 10m 05s.xml">
-      <configuration name="Unittest Login_test.test_login_01" configurationId="tests" />
+    <history-entry file="Unittest_Testsjg_test_01login - 2017.05.15 at 13h 59m 23s.xml">
+      <configuration name="Unittest Testsjg.test_01login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Login_test_test_login_01 - 2017.04.26 at 12h 11m 01s.xml">
-      <configuration name="Unittest Login_test.test_login_01" configurationId="tests" />
+    <history-entry file="Unittest_Testsjg_test_01login - 2017.05.15 at 14h 00m 32s.xml">
+      <configuration name="Unittest Testsjg.test_01login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test - 2017.04.08 at 22h 06m 47s.xml">
-      <configuration name="Unittests in test" configurationId="tests" />
+    <history-entry file="Unittest_Testsjg_test_01login - 2017.05.15 at 15h 15m 23s.xml">
+      <configuration name="Unittest Testsjg.test_01login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test - 2017.04.08 at 22h 07m 14s.xml">
-      <configuration name="Unittests in test" configurationId="tests" />
+    <history-entry file="Unittest_Testsjg_test_01login - 2017.05.15 at 15h 15m 36s.xml">
+      <configuration name="Unittest Testsjg.test_01login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test - 2017.04.11 at 16h 50m 04s.xml">
-      <configuration name="Unittests in test" configurationId="tests" />
+    <history-entry file="Unittest_Testsjg_test_01login - 2017.05.15 at 15h 16m 49s.xml">
+      <configuration name="Unittest Testsjg.test_01login" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test - 2017.04.11 at 16h 51m 28s.xml">
       <configuration name="Unittests in test" configurationId="tests" />
@@ -858,28 +871,28 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18740849" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18740849" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57157785" sideWeight="0.50238097" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43779528" sideWeight="0.49761903" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20062695" sideWeight="0.49761903" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16535433" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -911,13 +924,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pyAutoForm/autoFormAdv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UItestframework-master/public/common/pyselenium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1284,9 +1290,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sjg/page/data_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052805282">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6768292">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
