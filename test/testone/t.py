@@ -5,8 +5,6 @@ sys.setdefaultencoding('utf8')
 import time
 from selenium import webdriver
 import unittest
-
-
 class Testsjg(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
@@ -17,22 +15,12 @@ class Testsjg(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
 
-    def test_01login(self):
+    def test_01(self):
         self.driver.find_element_by_name("username").send_keys("liyan@gbase.cn")
-        time.sleep(3)
         self.driver.find_element_by_id("password").send_keys("111111")
-        time.sleep(3)
-<<<<<<< Updated upstream
-
-
-
-
-        
-=======
->>>>>>> Stashed changes
         self.driver.find_element_by_class_name("btn-submit").click()
-        time.sleep(3)
+        time.sleep(1)
         title = self.driver.title
         print title
-        self.assertEqual(title, u"数据观 - 所有人都能使用的数据分析工具")
+        self.assertEqual(title, u"登录-shujuguan")
         print "登录成功"
