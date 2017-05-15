@@ -22,14 +22,6 @@ class Testsjg(unittest.TestCase):
         time.sleep(3)
         self.driver.find_element_by_id("password").send_keys("111111")
         time.sleep(3)
-<<<<<<< Updated upstream
-
-
-
-
-        
-=======
->>>>>>> Stashed changes
         self.driver.find_element_by_class_name("btn-submit").click()
         time.sleep(3)
         title = self.driver.title
