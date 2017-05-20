@@ -1,0 +1,14 @@
+1494816686810	geckodriver	INFO	Listening on 127.0.0.1:54806
+1494816687886	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1494816691757	Marionette	INFO	Listening on port 43057
+1494816691862	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shujuguan.shujuguan.cn/Public/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1494816696344	Marionette	INFO	New connections will no longer be accepted
+[Child 13338] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1494816773236	geckodriver	INFO	Listening on 127.0.0.1:43814
+1494816774283	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1494816778145	Marionette	INFO	Listening on port 37149
+1494816778262	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shujuguan.shujuguan.cn/Public/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1494816792777	Marionette	INFO	New connections will no longer be accepted
+[Child 13751] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-tJ4O1e/firefox-53.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346

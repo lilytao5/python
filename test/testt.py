@@ -9,7 +9,7 @@ import unittest
 
 class Testsjg(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
         self.driver.get("https://shujuguan.shujuguan.cn")
         time.sleep(3)
         self.driver.maximize_window()
