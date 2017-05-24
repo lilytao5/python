@@ -5,14 +5,14 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 import unittest,time,xlrd
 #import xdrlib ,sys
-def open_excel(file= 'login.xlsx'):
+def open_excel(file= 'yoyo-login.xlsx'):
         try:
                 data = xlrd.open_workbook(file) #打开exl文件读取数据
                 return data
         except Exception,e:
                 print str(e)
         #根据索引获取Excel表格中的数据 参数:file：Excel文件路径 colnameindex：表头列名所在行的索引 ，by_index：表的索引
-def excel_table_byindex(file= 'login.xlsx',colnameindex=0,by_index=0):
+def excel_table_byindex(file= 'yoyo-login.xlsx',colnameindex=0,by_index=0):
         data = open_excel(file)
         table = data.sheets()[by_index] #通过索引顺序获取一个工作表
         nrows = table.nrows #行数

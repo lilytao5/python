@@ -1,5 +1,5 @@
 # coding:utf-8
-from common.yoyo_selenium import Yoyo
+from yoyo.common.yoyo_selenium import Yoyo
 login_url = "https://passport.cnblogs.com/user/signin"
 
 class LoginPage(Yoyo):
