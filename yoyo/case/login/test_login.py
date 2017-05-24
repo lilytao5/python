@@ -2,10 +2,10 @@
 from selenium import webdriver
 import unittest
 import ddt
-from yoyo.blog.blog_login_page import LoginPage, login_url
+from blog.blog_login_page import LoginPage, login_url
 from read_exl import read_excel
 
-da = read_excel("testdata.xlsx", u'yoyo-login')
+da = read_excel("testdata.xlsx", u'login')
 test_li = da.read_dict()
 print test_li
 

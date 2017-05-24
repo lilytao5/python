@@ -2,7 +2,7 @@
 import xlrd
 
 class read_excel():
-    def __init__(self, path="testdata.xlsx", sheetName=u'yoyo-login'):
+    def __init__(self, path="testdata.xlsx", sheetName=u'login'):
         data = xlrd.open_workbook(path)
         self.table = data.sheet_by_name(sheetName)
         # 读取第一行作为key值
