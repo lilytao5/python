@@ -2,18 +2,19 @@
 from selenium import webdriver
 import unittest
 from sjg.page.datacenter_data_page import DatacenterDataPage, data_url
+from shujuguan_test.common.help_selenium import browser
 
 
 class DatacenterDataTest(unittest.TestCase):
     u'''登录页面的case'''
     def setUp(self):
-        self.driver = LoginPage()
-        self.driver.open(login_url)
+        self.driver_datacenterdata = DatacenterDataPage(browser())
+        self.driver_datacenterdata.open(data_url)
 
     def tearDown(self):
-            self.driver.quit()
+            self.driver_datacenterdata.quit()
 
-    def test_login_01(self):
+    def test_datacenterdata_01(self):
         '''登录成功按案例：输入正确账号密码'''
         # 第1步：输入账号
         self.driver.input_username("liyan@gbase.cn")
