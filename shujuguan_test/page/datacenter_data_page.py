@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # coding:utf-8
-from sjg.common.help_selenium import Help
-# 数据中心data页-datacenter_data
-data_url = "https://shujuguan.shujuguan.cn/#datacenter/data"
-
+from shujuguan_test.common.help_selenium import Help
+# 数据中心data页-datacenter_data_page
+datacenter_data_url = "https://shujuguan.shujuguan.cn/#datacenter/data"
 
 class DatacenterDataPage(Help):
     # 定位器，定位页面元素

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding:utf-8
 from selenium import webdriver
 import unittest
@@ -11,6 +12,9 @@ class LoginTest(unittest.TestCase):
     def setUp(self):
         self.driver_login = LoginPage(browser())
         self.driver_login.open(login_url)
+
+    def tearDown(self):
+        self.driver_login.quit()
 
     def test_login_01(self):
         '''登录成功按案例：输入正确账号密码'''
@@ -46,10 +50,6 @@ class LoginTest(unittest.TestCase):
     def test_login_03(self):
         '''登录页面其它的case'''
         pass
-
-
-    def tearDown(self):
-        self.driver_login.quit()
 
 if __name__ == "__main__":
     unittest.main()
